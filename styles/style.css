@@ -1,31 +1,14 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
+/*
+Theme Name: Occom
+Theme URI: https://dev.occominternet.com/
+Author: Occom
+Author URI: https://dev.occominternet.com/
+Description: A custom parent theme called Occom.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: occom
+*/
 
 
 :root {
@@ -38,7 +21,7 @@ body {
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('https://dev.occominternet.com/wp-content/themes/generatepress/assets/asset/fonts/proxima-nova-regular.woff') format('woff');
+    src: url('/fonts/proxima-nova-regular.woff') format('woff');
     font-weight: 400;
     /* normal */
     font-style: normal;
@@ -47,7 +30,7 @@ body {
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('https://dev.occominternet.com/wp-content/themes/generatepress/assets/asset/fonts/proxima-nova-bold.woff') format('woff');
+    src: url('/fonts/proxima-nova-bold.woff') format('woff');
     font-weight: 700;
     /* bold */
     font-style: normal;
@@ -315,7 +298,6 @@ a.dropdown-item {
     font-size: 30px;
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
     font-weight: 700;
     margin-bottom: 2rem;
     color: #fff;
