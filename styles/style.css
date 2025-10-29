@@ -19,23 +19,23 @@ Text Domain: occom
     --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
 }
 
-@font-face {
-    font-family: 'Proxima Nova';
+/* @font-face {
+    font-family: inherit;
     src: url('/fonts/proxima-nova-regular.woff') format('woff');
     font-weight: 400;
     /* normal */
-    font-style: normal;
+    /* font-style: normal;
     font-display: swap;
-}
+} */
 
-@font-face {
-    font-family: 'Proxima Nova';
+/* @font-face {
+    font-family: inherit;
     src: url('/fonts/proxima-nova-bold.woff') format('woff');
     font-weight: 700;
-    /* bold */
+    
     font-style: normal;
     font-display: swap;
-}
+} */ 
 
 html,
 body {
@@ -482,7 +482,7 @@ span.star-svg {
 }
 
 .tailor-sol-inner-txt h4 {
-    font-family: 'Proxima Nova';
+    font-family: inherit;
     font-size: 30px;
     font-weight: 700;
     color: #E96B57;
@@ -493,7 +493,7 @@ span.star-svg {
 
 .tailor-sol-inner-txt p {
     max-width: 90%;
-    font-family: 'Proxima Nova';
+    font-family: inherit;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4em;
@@ -503,7 +503,7 @@ span.star-svg {
 
 .read-more-btn a {
     background-color: #1E6B53;
-    font-family: 'Proxima Nova';
+    font-family: inherit;
     font-size: 20px;
     font-weight: 500;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -574,7 +574,7 @@ span.star-svg {
 }
 
 .blog-wrapper-title h4 {
-    font-family: 'Proxima Nova';
+    font-family: inherit;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.2em;
@@ -622,7 +622,7 @@ span.swiper-pagination-bullet {
 }
 
 .post-info-list-item {
-    font-family: 'Proxima Nova';
+    font-family: inherit;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4em;
@@ -730,7 +730,7 @@ p.reach-sec-txt {
 }
 
 .social-media-name p {
-    font-family: 'Proxima Nova';
+    font-family: inherit;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.4em;
@@ -1104,6 +1104,15 @@ li.nav-item.dropdown .nav-link {
     font-size: 15px;
     padding-right: 1rem;
 }
+.grid.grid-cols-1.md\:grid-cols-3.gap-8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+article.flex.flex-col.bg-white.rounded-lg.shadow-md {
+    padding-right: 10px;
+}
+
 
 
 @media (min-aspect-ratio: 16/9) {

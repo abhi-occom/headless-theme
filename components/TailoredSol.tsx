@@ -18,7 +18,7 @@ export default function TailoredSol() {
         <div className="occom-headline-txt"><h3>Tailored Solutions</h3></div>
         <div className="row row-tailored-row">
           {tailored.map((t, i) => (
-            <motion.div className="col-md-12" key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: i * 0.08 }}>
+            <motion.div className="col-md-12" key={i} initial="visible" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: i * 0.08 }}>
               <div className="tailored-box">
                 <div className="tailored-inner-box">
                   <div className="tailored-box-img"><img src={t.img} alt={t.title} /></div>
